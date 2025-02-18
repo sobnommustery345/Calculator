@@ -1,2 +1,3 @@
 # ⭐ Interactive HTML, CSS, & JavaScript ⭐
 
+"Discover my latest calculator project, built with HTML, CSS, and JavaScript! This interactive, responsive, and user-friendly tool performs quick and accurate calculations with a sleek design. It’s perfect for developers, students, and anyone interested in web development. Explore how JavaScript handles real-time calculations while CSS enhances the design. Whether you're learning or looking for inspiration, this project showcases essential web technologies in action. Check it out now and experience seamless functionality in a modern web-based calculator!"
