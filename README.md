@@ -11,7 +11,7 @@ Discover my latest **interactive calculator** project, developed using **HTML**,
 - ✅ **Modern UI** built with **CSS3** for clean and responsive styling
 - ✅ **Fast, reliable performance** for accurate and instant **calculations** at your fingertips
 
-- 
+- ![Interactive Calculator, HTML Calculator, CSS Calculator, JavaScript Calculator, Responsive Calculator, MST Sobnom Mustery Mimma, Real-Time Calculations, User-Friendly Interface, JavaScript Functions, CSS Animations, Modern UI, SEO Optimized Calculator, Front-End Web Development, Dynamic Calculator, Mobile-Friendly, Instant Results, Sleek Design, Accurate Calculations.](https://github.com/user-attachments/assets/6ac8345f-6208-41f5-9873-0dbcf26b6415)
 
 ## 🚀 How It Works
 This project leverages essential **front-end web development** technologies to create a seamless **interactive calculator**:
