@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata and page settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content=⭐ Skilled Virtual Assistant: Professional Data Entry ⭐>
-    <meta property="og:site_name" content=PeoplePerHour>
-    <meta property="og:url" content=https://www.peopleperhour.com/hourlie/skilled-virtual-assistant-professional-data-entry/1016723>
-    <meta property="og:description" content=Note: If you need a service not listed above, please feel free to message me.>
-    <meta property="og:type" content=article>
-    <meta property="og:image" content=https://shorturl.at/I8Edb>
-    <meta name="google-site-verification" content="E7GXmaRRggpAXlW6gwNvUncGhnHNstucy7uYWjS0fsQ" />
-    <title>Calculator</title>
+    <meta name="description" content="Check the current time across different time zones globally with Digital World Watch.">
+    <meta name="keywords" content="Mst Sobnom Mustery Mimma, world clock, digital watch, digital clock, time zones, global time">
+    <meta name="author" content="Mst Sobnom Mustery Mimma">
+    <title>Digital Watch | Global Time Zones</title>
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Digital World Watch | Global Time Zones ">
+    <meta property="og:description" content="Check the current time across different time zones globally with Digital World Watch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/sobnommustery345">
+    <meta property="og:image" content="https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4ybybyuh887hlms4n2hg.jpg">
+
+    <!-- Twitter Card for better sharing on Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Digital World Clock">
+    <meta name="twitter:description" content="Easily check the current time in different time zones worldwide.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/preview.png">
+
+    <!-- Linking external CSS and favicon -->
     <link rel="stylesheet" href="css & js/styles.css">
-    <link rel="shortcut icon" href="images/calculator.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="calculator-main">
-        <div class="calculator-display">
-            <div class="equation"></div>
-            <div class="result">0</div>
-        </div>
+    <!-- Main container for the clock application -->
+    <div class="container">
+        <div class="clock-container">
+            <h1>World Wide Clock</h1>
 
-        <div class="calculator-grid">
-            <button class="clear-button">CLEAR</button>
-            <button class="delete-button">DELETE</button>
+            <!-- Search section for time zones -->
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <!-- Search input field -->
+                    <input type="text" id="searchInput" placeholder="Type Time Zone">
 
-            <button class="num-button">7</button>
-            <button class="num-button">8</button>
-            <button class="num-button">9</button>
-            <button class="op-button">÷</button>
+                    <!-- Search icon (SVG) -->
+                    <div class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                </div>
 
-            <button class="num-button">4</button>
-            <button class="num-button">5</button>
-            <button class="num-button">6</button>
-            <button class="op-button">×</button>
+                <!-- Container for search results -->
+                <div id="searchResults" class="search-results"></div>
+            </div>
 
-            <button class="num-button">1</button>
-            <button class="num-button">2</button>
-            <button class="num-button">3</button>
-            <button class="op-button">-</button>
-
-            <button class="num-button decimal-button">.</button>
-            <button class="num-button">0</button>
-            <button class="equals-button">=</button>
-            <button class="op-button">+</button>
+            <!-- Digital clock display section -->
+            <div class="clock">
+                <div class="time" id="time"></div> <!-- Current time -->
+                <div class="ampm" id="ampm"></div> <!-- AM/PM indicator -->
+                <div class="date" id="date"></div> <!-- Current date -->
+            </div>
         </div>
     </div>
+
+    <!-- Linking external JavaScript file -->
     <script src="css & js/script.js"></script>
 </body>
 </html>
